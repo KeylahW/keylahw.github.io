@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color:darkorchid
+}
+
+.site-title {
+color:lightblue
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px #000000
+}
+
+#my-list {
+    list-style: square;
+}
+
+#my-list:nth-child(2) {
+    background-color:aquamarine
+}
+
+#list {
+    background-color: aquamarine;
+    
+    border: solid;
+}
+
+/* attribute selector */
+a[href="notes.html"] {
+    text-decoration: none;
+}
+
+/* pseudo class */
+a:link {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: pink;
+    background-color:pink
+}
