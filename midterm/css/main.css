@@ -1,0 +1,23 @@
+body {
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 22%;
+    width: 100%;
+    text-align: center;
+    font-size: 56px;
+    color: white;
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+}
