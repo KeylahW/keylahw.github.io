@@ -70,6 +70,7 @@ h1 {
     max-width: 100%;
 }
 
+/* positions image to left*/
 .img {
     float: left;
     margin: 5px;
@@ -107,7 +108,7 @@ footer {
 
 
 
-
+/* removes text decoration from button and changes background color */
 button {
     text-decoration: none;
     background-color:#D4E9E7;
