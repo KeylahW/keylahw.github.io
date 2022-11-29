@@ -1,0 +1,48 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/************ NAVAGATION ************/
+
+
+nav {
+    display: flex;
+    background-color: #222;
+    color: #c78c06;
+    justify-content: space-between;
+    padding: 10px 10%;
+    align-items: center;
+}
+.link {
+    display: flex;
+}
+
+.search {
+    background-color: #222;
+    color: #c78c06;
+    border: 4px #c78c06;
+}
+
+li {
+    min-width: 100px;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #c78c06;
+}
+
+a:hover {
+    color: #222;
+    background-color: #c78c06;
+}
+
+/*  */
