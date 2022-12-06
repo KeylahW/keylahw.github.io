@@ -90,3 +90,33 @@ a:hover{
 .homeheader {
     font-size: 60px;
 }
+
+/************ ABOUT US ************/
+
+.about-us {
+    background-color: #ffe6ac;
+
+}
+
+.aboutimg {
+    width: 500px;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+p {
+    font-size: 12px;
+}
+
+/************ OUR SERVICES ************/
+
+.card digital {
+    background-color: #ffe6ac;
+}
+
+.card market {
+
+}
