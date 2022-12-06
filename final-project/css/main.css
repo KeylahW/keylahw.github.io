@@ -9,28 +9,37 @@ body {
 
 
 nav {
-    display: flex;
+    display: inline-block;
     background-color: #222;
     color: #c78c06;
-    justify-content: space-between;
-    padding: 10px 10%;
-    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
 }
-.link {
-    display: flex;
+
+.logo {
+   float: left;
+   
 }
 
 .search {
     background-color: #222;
     color: #c78c06;
     border: 4px #c78c06;
+    width: 100%;
 }
 
 li {
-    min-width: 100px;
+    clear: both;
+    width: 100%;
+    margin: auto;
 }
 
-ul {
+form {
+    display: inline;
+}
+
+.link, a {
     list-style: none;
 }
 
@@ -40,9 +49,44 @@ a:hover, a:visited, a:link, a:active
     color: #c78c06;
 }
 
-a:hover {
+a:hover{
     color: #222;
     background-color: #c78c06;
+    width: 100%;
+
 }
 
-/*  */
+/************ HOME PAGE ************/
+
+.homeimage {
+    background-image: url("../images/main-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+
+.hometext {
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  background-color: rgb(34, 34, 34, .7);;
+  width: 100%;
+}
+.connect {
+    background-color: #c78c06;
+    padding:20px;
+    font-size: 20px;
+    border: none;
+}
+
+.homeheader, .homepara {
+    color: white;
+}
+
+.homeheader {
+    font-size: 60px;
+}
