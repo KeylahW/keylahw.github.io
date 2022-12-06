@@ -306,10 +306,19 @@ input[type=text], select {
     }
 
     .card {
-        display:grid;
+        display: grid;
         background-color: #ffe6ac;
-        width: 33.5%;
+        width: 30.5%;
     }
+
+    .map {
+        float: right;
+    }
+
+    .table {
+        float: left;
+    }
+
     
   }
 
