@@ -55,7 +55,7 @@
             <img class="aboutimg"src="images/about-us.jpg" alt="ping pong table">
             </div>
         <h1>About us</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quod itaque neque ratione facere pariatur cupiditate magnam vitae totam non atque sequi assumenda aperiam omnis consequuntur quibusdam, quaerat, fugiat iure.</p>
+        <p class="about-us">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quod itaque neque ratione facere pariatur cupiditate magnam vitae totam non atque sequi assumenda aperiam omnis consequuntur quibusdam, quaerat, fugiat iure.</p>
         <p class="about-us">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio hic dolores culpa dicta? Laboriosam nam fugit illum itaque magnam. Nihil dignissimos praesentium repellendus eius ratione at atque ad voluptates nisi?</p>
         </div>
     </div>
@@ -123,47 +123,50 @@
     <div class="wrapper">
         <div>
         <h1>Our Team</h1>
-        <div>
-        <img src="images/john.jpg" alt="john doe">
-        <h2>John Doe</h2>
-        <h3>CEO and Co-owner</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum impedit ducimus consequatur exercitationem eligendi est iste rerum alias animi! Nisi repellat recusandae et laboriosam incidunt aspernatur libero cupiditate, sapiente provident.</p>
+        <div class="teamcard">
+        <img class="teamimg" src="images/john.jpg" alt="john doe">
+        <h2 class="teamtxt txt1">John Doe</h2>
+        <h3 class="teamtxt txt2">CEO and Co-owner</h3>
+        <p class="teamtxt txt3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum impedit ducimus consequatur exercitationem eligendi est iste rerum alias animi! Nisi repellat recusandae et laboriosam incidunt aspernatur libero cupiditate, sapiente provident.</p>
         </div>
 
-        <div>
-        <img src="images/bob.jpg" alt="bob rite">  
-        <h2>Bob Rite</h2>
-        <h3>CFO and Co-owner</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum impedit ducimus consequatur exercitationem eligendi est iste rerum alias animi! Nisi repellat recusandae et laboriosam incidunt aspernatur libero cupiditate, sapiente provident.</p>
+        <div class="teamcard">
+        <img class="teamimg" src="images/bob.jpg" alt="bob rite">  
+        <h2 class="teamtxt txt1">Bob Rite</h2>
+        <h3 class="teamtxt txt2">CFO and Co-owner</h3>
+        <p class="teamtxt txt3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum impedit ducimus consequatur exercitationem eligendi est iste rerum alias animi! Nisi repellat recusandae et laboriosam incidunt aspernatur libero cupiditate, sapiente provident.</p>
         </div>
         </div>
     </div>
     <!-- Contact us forms -->
     <div>
-        <h1 id="contact-us">Contact Us</h1>
+        <h1>Contact Us</h1>
         <h2>Send us a message</h2>
         <form>
+            <div class="form">
             <label for="fname">Full name</label>
             <input type="text" id="fname" name="fname"><br><br>
+            </div>
 
+            <div class="form">
             <label for="email">Email</label>
             <input type="text" id="email" name="email"><br><br>
+            </div>
 
+            <div class="form">
             <label for="message">Message</label>
             <input type="text" id="message" name="message"><br><br>
             <input type="submit" value="Send">
+            </div>
         </form>
     </div>
-    <div>
-        <h1>Location</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9447379868184!2d-75.75638706238023!3d45.349927790823514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669159097335!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+   
     <div>
         <h1>Hours of operation</h1>
         <table>
             <tr>
-                <th>Days</th>
-                <th>Hours</th>
+                <th class="top">Days</th>
+                <th class="top">Hours</th>
             </tr>
             <tr>
                 <th>Monday-Friday</th>
@@ -175,6 +178,12 @@
             </tr>
         </table>
     </div>
+
+    <div class="map">
+        <h1>Location</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9447379868184!2d-75.75638706238023!3d45.349927790823514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669159097335!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
     <footer>&copy;Three Star Media 2020</footer>
     <footer>All images taken from <a href="https://unsplash.com/">Unsplash</a></footer>
 </body>
