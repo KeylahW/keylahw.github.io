@@ -291,6 +291,11 @@ input[type=text], select {
         padding-right: 100px;
         margin-bottom: 100px;
         text-align: left;
+        overflow: visible;
+    }
+
+    h1 {
+        font-size: 40px;
     }
 
     .aboutimg {
@@ -298,6 +303,12 @@ input[type=text], select {
         margin: 5px;
         width: 40%;
         height: 250px;
+    }
+
+    .card {
+        display:grid;
+        background-color: #ffe6ac;
+        width: 33.5%;
     }
     
   }
