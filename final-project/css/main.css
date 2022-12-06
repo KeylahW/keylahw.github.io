@@ -73,7 +73,7 @@ a:hover{
   left: 50%;
   color: white;
   transform: translate(-50%, -50%);
-  background-color: rgb(34, 34, 34, .7);;
+  background-color: rgb(34, 34, 34, .7);
   width: 100%;
 }
 .connect {
@@ -113,10 +113,48 @@ p {
 
 /************ OUR SERVICES ************/
 
-.card digital {
+.card {
     background-color: #ffe6ac;
+    margin: 10px;
 }
 
-.card market {
+.container {
+    padding: 10px 26px;
+  }
 
+.cardimg {
+    width: 463px;
+    height: 300px;
 }
+
+.cardbtn {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+}
+
+/************ OUR VISION ************/
+
+
+.visionimg {
+    background-image: url("../images/vision.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 200px;
+    color: white;
+}
+
+.visionbtn {
+    background-color: rgb(34, 34, 34, .7);
+    color: white;
+    border: 1px solid #c78c06;
+    width: 150px;
+    height: 50px;
+}
+
+
+/************ OUR TEAM ************/
+
