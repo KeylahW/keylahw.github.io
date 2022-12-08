@@ -284,6 +284,7 @@ input[type=text], select {
         width: 70%;
         height: 70%;
         font-size: 100px;
+        padding-left: 10px;
     }
 
     .about-us {
@@ -306,35 +307,12 @@ input[type=text], select {
     }
 
     .card {
-        display: grid;
-        grid-template-areas: 
-        'digital digital digital'
-        'market market market'
-        'webdev webdev'
-        'video video'
-        'print print';
+        display: inline-grid;
+        grid-template-columns: 4 4 4;
         width: 30.5%;
     }
 
-    .digital {
-        grid-area: digital;
-    }
-
-    .market {
-        grid-area: market;
-    }
-
-    .video {
-        grid-area: video;
-    }
-
-    .webdev {
-        grid-area: webdev;
-    }
-
-    .print {
-        grid-area: print;
-    }
+    
 
     .visionimg {
         background-image: url("../images/vision.jpg");
@@ -344,6 +322,11 @@ input[type=text], select {
         width: 100%;
         color: white;
     }
+
+    .flex-container {
+        
+    }
+    
   }
 
 
