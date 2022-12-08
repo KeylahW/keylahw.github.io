@@ -307,19 +307,43 @@ input[type=text], select {
 
     .card {
         display: grid;
-        background-color: #ffe6ac;
+        grid-template-areas: 
+        'digital digital digital'
+        'market market market'
+        'webdev webdev'
+        'video video'
+        'print print';
         width: 30.5%;
     }
 
-    .map {
-        float: right;
+    .digital {
+        grid-area: digital;
     }
 
-    .table {
-        float: left;
+    .market {
+        grid-area: market;
     }
 
-    
+    .video {
+        grid-area: video;
+    }
+
+    .webdev {
+        grid-area: webdev;
+    }
+
+    .print {
+        grid-area: print;
+    }
+
+    .visionimg {
+        background-image: url("../images/vision.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        position:relative;
+        width: 100%;
+        color: white;
+    }
   }
 
 
