@@ -317,7 +317,7 @@ input[type=text], select {
         width: 30.5%;
     }
 
-    
+    /* vision */
 
     .visionimg {
         background-image: url("../images/vision.jpg");
@@ -327,7 +327,7 @@ input[type=text], select {
         height:100%;
         color: white;
     }
-
+/* team */
     .teamcard {
         display: flex;
         flex-direction: row;
@@ -358,7 +358,7 @@ input[type=text], select {
         float: left;
         width:50%;
     }
-
+/* map and table */
     .map {
         float: right;
     }
