@@ -143,7 +143,7 @@ p {
     background-image: url("../images/vision.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position:relative;
     height: 200px;
     color: white;
 }
@@ -160,6 +160,11 @@ p {
 /************ OUR TEAM ************/
 
 .teamcard {
+    background-color: #ffe6ac;
+    margin: 10px;
+}
+
+.teamcard2 {
     background-color: #ffe6ac;
     margin: 10px;
 }
@@ -317,16 +322,52 @@ input[type=text], select {
     .visionimg {
         background-image: url("../images/vision.jpg");
         background-repeat: no-repeat;
-        background-size:cover;
-        position:relative;
+        background-size: cover;
         width: 100%;
+        height:100%;
         color: white;
     }
 
-    .flex-container {
-        
+    .teamcard {
+        display: flex;
+        flex-direction: row;
+        font-size: 12x;
+        text-align: left;
+    }
+
+    .teamimg {
+        width: 700px;
     }
     
+    .teamtxt {
+        flex-direction:row;
+      font-size: 20px;
+      text-align: left;
+    }
+
+    .teamcard2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .table {
+        overflow:initial;
+    }
+
+    .contact {
+        float: left;
+        width:50%;
+    }
+
+    .map {
+        float: right;
+    }
+
+    .table {
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+    }
   }
 
 
